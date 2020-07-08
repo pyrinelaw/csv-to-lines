@@ -1,0 +1,41 @@
+{
+    "name": "csv-to-lines",
+    "version": "0.0.1",
+    "description": "将 csv 文件 或者 csv 文件中字符串转换为数组",
+    "main": "./src/index.js",
+    "author": "Pyrine.Law <petrus_law@yeah.net>",
+    "keywords": [
+        "csv-to-lines",
+        "csv-to-list",
+        "csv-to-array",
+        "transform-csv",
+        "get-csv",
+        "csv",
+        "to-list-csv",
+        "to-lines-csv",
+        "to-array-csv"
+    ],
+    "scripts": {
+        "test": "node ./test/index.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/pyrinelaw/csv-to-lines"
+    },
+    "engines": {
+        "node" : ">=8.0.0"
+    },
+    "files": [
+        "src",
+        "test",
+        "Readme.md"
+    ],
+    "dependencies": {
+        "colors": "^1.4.0",
+        "match-all": "^1.2.5",
+        "lodash": "^4.17.15"
+    },
+    "license": "MIT"
+}
+  
+  
